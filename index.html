@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanne Johansson || Web Development</title>
+
+    <!-- Favicon -->
+     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+
+    <!-- Google fonts and Font Awesome import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap"
+        rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/ad5c36405b.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <!-- CSS stylesheet-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body class="d-flex flex-column justify-content-center align-items-center min-vh-100">
+
+    <!-- Header -->
+    <header class="container-fluid d-flex flex-column" id="header-index">
+        
+
+        <!-- Navigation -->
+        <nav id="navbar" class="navbar navbar-expand-lg" data-bs-theme="light">
+            <div class="container-fluid m-1 d-flex justify-content-between">
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="container-fluid d-flex justify-content-end">
+                        <ul class="navbar-nav gap-4">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about-container">About me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#portfolio-container">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact-container">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center" id="header-text">
+            <h1 class="fade-in-fwd">sanne johansson</h1>
+            <h2 class="text-flicker-in-glow mb-3">web developer</h2>
+            <div id="button-container">
+                <a href="#portfolio-container" class="btn custom-btn m-2">View work</a>
+                <a href="#contact-container" class="btn custom-btn-outline m-2">Hire me</a>
+            </div>
+        </div>
+      
+    </header>
+
+    <!-- Scroll down icon -->
+    <div class="d-flex flex-column align-items-center justify-content-end" id="scroll-down">
+        <a href="#about-container"><i class="fa-solid fa-chevron-down"></i></a>
+    </div>
+
+    <!-- About section -->
+
+    <section class="container-fluid d-flex flex-column justify-content-center align-items-center" id="about-container">
+        <div class="container col-12 d-flex flex-row flex-wrap justify-content-between align-items-center pb-5">
+            <div class="col-12 col-md-7 col-lg-7" id="about-info">
+                <h2>about me</h2>
+                <p>I'm a <strong>certified</strong> Front-End Developer currently studying <strong>Full-Stack
+                    </strong>Software Development.
+                    I'm educated both to write <strong>clean, responsive code</strong> from scratch and to use
+                    <strong>frameworks</strong> and libraries
+                    as Bootstrap, jQuery, React and Tailwind.</p>
+                <p>Prior to my Front-End Development studies I've graduated in <strong>Aesthetics-Media</strong>, which
+                    included studies
+                    in <strong>digital creativity</strong>, photography, film and media production and aesthetic
+                    communication.</p>
+                <p>My passion lays in making a visually appealing and <strong>user friendly</strong> user experience,
+                    and to create this
+                    down to the smallest of <strong>details</strong>.</p>
+
+                <p class="mb-0"><strong>Age:</strong> 30</p>
+                <p class="mb-0"><strong>Based in:</strong> Sweden</p>
+                <p class="mb-0"><strong>Language:</strong> Swedish, English</p>
+                <p class="mb-0"><strong>Availability:</strong> For hire, project employment and freelance</p>
+            </div>
+
+            <div class="col-sm-12 col-md-4 col-lg-4 -flex gap-4 flex-column justify-content-center align-items-start" id="skills-container">
+                <div>
+                    <h4 class="mb-1 mt-4">programs</h4>
+                    <div class="row ps-2 mb-4 d-flex">
+                        <div class="about-badge m-1">
+                            <p>VS Code</p>
+                        </div>
+                        <div class="about-badge m-1">
+                            <p>Figma</p>
+                        </div>
+                        <div class="about-badge m-1">
+                            <p>Adobe Photoshop</p>
+                        </div>
+                        <div class="about-badge m-1">
+                            <p>Final Cut Pro</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="mb-1">languages</h4>
+                    <div class="row ps-2 mb-4 d-flex">
+                        <div class="about-badge m-1">
+                            <p>HTML</p>
+                        </div>
+                        <div class="about-badge m-1">
+                            <p>CSS</p>
+                        </div>
+                        <div class="about-badge m-1">
+                            <p>Sass</p>
+                        </div>
+                        <div class="about-badge m-1">
+                            <p>JavaScript</p>
+                        </div>
+                        <div class="about-badge m-1">
+                            <p>Python</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="mb-1">frameworks and libraries</h4>
+                    <div class="row ps-2 mb-4 d-flex">
+                        <div class="about-badge m-1">
+                            <p>Bootstrap</p>
+                        </div>
+                        <div class="about-badge m-1">
+                            <p>Tailwind</p>
+                        </div>
+                        <div class="about-badge m-1">
+                            <p>jQuery</p>
+                        </div>
+                        <div class="about-badge m-1">
+                            <p>React</p>
+                        </div>
+                        <div class="about-badge m-1">
+                            <p>Django</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    <div class="row mt-2 gap-3 justify-content-center" id="download-container">
+
+                            <a href="files/Diplom- Sanne J.pdf" target="_blank" class="btn custom-btn-long">View Certificate</a>
+                            <a href="files/cv2025.pdf" target="_blank" class="btn custom-btn-long-outline">Download Resumé</a>
+                        </div>
+  
+    </section>
+
+    <!-- Portfolio -->
+    <section class="container-fluid d-flex flex-row justify-content-center align-items-center box"
+        id="portfolio-container">
+        <div class="container row row-gap-2">
+            <h2 id="portfolio-head">selected work</h2>
+
+            <!-- Cards -->
+                        <div class="col-md-6 col-lg-4">
+                <a class="link-cards" href="https://github.com/ssannejohansson/MP3-bark-and-brush.git" target="_blank">
+                    <div class="card card-block">
+                    <img src="assets/images/portfolio-img/bark-and-brush.png" alt="">
+                    <h3 class="card-title ms-2 me-2">bark & brush</h3>
+                    <p class="card-text ms-2 me-2 mb-0">This is my third Milestone Project for Code Institute,
+                        Full-Stack Software Development.</p>
+                    <div class="row p-2 d-flex justify-content-center badge-container">
+                        <div class="custom-badge m-1">
+                            <p>HTML</p>
+                        </div>
+                        <div class="custom-badge m-1">
+                            <p>CSS</p>
+                        </div>
+                        <div class="custom-badge m-1">
+                            <p>Bootstrap</p>
+                        </div>
+                        <div class="custom-badge m-1">
+                            <p>JavaScript</p>
+                        </div>
+                        <div class="custom-badge m-1">
+                            <p>Python</p>
+                        </div>
+                            <div class="custom-badge m-1">
+                            <p>Django</p>
+                        </div>
+                    </div>
+                </div>
+                </a>
+            </div>
+
+
+            <div class="col-md-6 col-lg-4">
+                <a class="link-cards" href="https://ssannejohansson.github.io/MP2-guess-the-word/" target="_blank">
+                    <div class="card card-block">
+                    <img src="assets/images/portfolio-img/guess-the-word.png" alt="">
+                    <h3 class="card-title ms-2 me-2">guess the word</h3>
+                    <p class="card-text ms-2 me-2 mb-0">This is my second Milestone Project for Code Institute,
+                        Full-Stack Software Development.</p>
+                    <div class="row p-2 d-flex justify-content-center badge-container">
+                        <div class="custom-badge m-1">
+                            <p>HTML</p>
+                        </div>
+                        <div class="custom-badge m-1">
+                            <p>CSS</p>
+                        </div>
+                        <div class="custom-badge m-1">
+                            <p>Bootstrap</p>
+                        </div>
+                        <div class="custom-badge m-1">
+                            <p>JavaScript</p>
+                        </div>
+                        <div class="custom-badge m-1">
+                            <p>jQuery</p>
+                        </div>
+                    </div>
+                </div>
+                </a>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                 <a class="link-cards" href="https://ssannejohansson.github.io/MS1-adopt-a-senior/" target="_blank">
+                <div class="card card-block">
+                    <img src="assets/images/portfolio-img/whiskers-of-wisdom.png" alt="">
+                    <h3 class="card-title ms-2 me-2">whiskers of wisdom</h3>
+                    <p class="card-text ms-2 me-2 mb-0">This is my first Milestone Project for Code Institute,
+                        Full-Stack Software Development.</p>
+                    <div class="row p-2 d-flex justify-content-center badge-container">
+                        <div class="custom-badge m-1">
+                            <p>HTML</p>
+                        </div>
+                        <div class="custom-badge m-1">
+                            <p>CSS</p>
+                        </div>
+                        <div class="custom-badge m-1">
+                            <p>Bootstrap</p>
+                        </div>
+                    </div>
+                </div>
+                </a>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                 <a class="link-cards" href="https://ssannejohansson.github.io/to-do-list/" target="_blank">
+                <div class="card card-block">
+                    <img src="assets/images/portfolio-img/to-do-list.png" alt="">
+                    <h3 class="card-title ms-2 me-2">to do list</h3>
+                    <p class="card-text ms-2 me-2 mb-0">This is a JavaScript to do list using local storage to store
+                        list locally in the browser.</p>
+                    <div class="row p-2 d-flex justify-content-center badge-container">
+                        <div class="custom-badge m-1">
+                            <p>HTML</p>
+                        </div>
+                        <div class="custom-badge m-1">
+                            <p>CSS</p>
+                        </div>
+                        <div class="custom-badge m-1">
+                            <p>JavaScript</p>
+                        </div>
+                    </div>
+                </div>
+                </a>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                 <a class="link-cards" href="https://ssannejohansson.github.io/random-fact/" target="_blank">
+                <div class="card card-block">
+                    <img src="assets/images/portfolio-img/random-fact.png" alt="">
+                    <h3 class="card-title ms-2 me-2">random cat facts</h3>
+                    <p class="card-text ms-2 me-2 mb-0">This is a project for Sundsgårdens Folkhögskola Front-End
+                        Development Certification.</p>
+                    <div class="row p-2 d-flex justify-content-center badge-container">
+                        <div class="custom-badge m-1">
+                            <p>HTML</p>
+                        </div>
+                        <div class="custom-badge m-1">
+                            <p>CSS</p>
+                        </div>
+                        <div class="custom-badge m-1">
+                            <p>JavaScript</p>
+                        </div>
+                        <div class="custom-badge m-1">
+                            <p>React</p>
+                        </div>
+                    </div>
+                </div>
+                </a>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                 <a class="link-cards" href="https://ssannejohansson.github.io/calculator/" target="_blank">
+                <div class="card card-block">
+                    <img src="assets/images/portfolio-img/calculator.png" alt="">
+                    <h3 class="card-title ms-2 me-2">calculator</h3>
+                    <p class="card-text ms-2 me-2 mb-0">This is a calculator with different well known interfaces to
+                        choose from.</p>
+                    <div class="row p-2 d-flex justify-content-center badge-container">
+                        <div class="custom-badge m-1">
+                            <p>HTML</p>
+                        </div>
+                        <div class="custom-badge m-1">
+                            <p>CSS</p>
+                        </div>
+                        <div class="custom-badge m-1">
+                            <p>JavaScript</p>
+                        </div>
+                    </div>
+                </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="container-fluid d-flex flex-column justify-content-around align-items-center"
+        id="contact-container">
+        <div class="container row d-flex justify-content-evenly align-items-evenly p-4" id="form-container">
+            <h2 class="fade-in-fwd text-center mt-2">get in touch</h2>
+            <div class="col-md-7 d-flex flex-column justify-content-evenly p-4" id="contact-left">
+                <form class="row row-gap-3" action="https://formsubmit.co/sannej0hansson@hotmail.com" method="POST" >
+                    <div class="col-12 mt-0">
+                        <label for="name" class="form-label">Full name</label>
+                        <input type="text" name="name" class="form-control shadow-none" placeholder="Full name" id="name">
+                    </div>
+                    <div class="col-12 mt-0">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" name="email" class="form-control shadow-none" placeholder="Email" id="email">
+                    </div>
+                    <div class="col-12 mt-0">
+                        <label for="phone" class="form-label">Phone</label>
+                        <input type="number" name="phone" class="form-control shadow-none" placeholder="Phone" id="number">
+                    </div>
+                    <div class="col-12 mt-0">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control shadow-none" placeholder="Message" name="message" id="message"
+                            rows="4"></textarea>
+                        <button type="submit" class="btn custom-btn border-bronze metallic-shine mt-3">Send</button></div>
+                </form>
+            </div>
+
+            <div class="col-5 d-flex flex-column justify-content-center align-items-center" id="contact-right">
+                <div id="contact" class="d-flex flex-column justify-content-center align-items-center">
+                    <img class="mb-3" src="assets/images/email2.png"> <!--"https://www.flaticon.com/free-icons/mail" Flaticon-->
+                    <p class="mb-0"><strong>Want to email me instead?</strong></p>
+                    <a href="mailto: sannejohansson7@gmail.com">sannejohansson7@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="footer" class="container-fluid mt-auto p-2 col-12 d-flex flex-row">
+             <div class="col-2 col-lg-2 d-flex flex-row justify-content-center align-items-center gap-3 icon-container">
+  <a href="https://github.com/ssannejohansson" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/sanne-johansson/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+
+        <div class="col-8 col-lg-8 d-flex flex-column justify-content-center text-center" id="footer-text">
+              <h1 class="mt-4">sanne johansson</h1>
+              <h2 class="mb-3">web developer</h2>
+        </div>
+
+        <div class="col-2 col-lg-2 d-flex flex-row justify-content-center align-items-center gap-1 icon-container">
+          <i class="fa-regular fa-copyright"></i>
+          <p class="p-auto" id="copyright">2025</p>
+        </div>
+    </footer>
+
+
+
+    <!-- jQuery script -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous">
+    </script>
+
+    <!-- JavaScript script-->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
